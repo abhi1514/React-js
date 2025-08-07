@@ -39,7 +39,7 @@ function Name(){
         <li>Apple</li>
         <li>Banana</li>
       </ul>
-      <button onMouseOver={click}>Click</button>
+      <button onClick={click}>Click</button>
       <h1>{Name}</h1>
       <h3>{Prime(4)}</h3> 
       <h2>{even(4)}</h2>
