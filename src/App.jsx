@@ -10,9 +10,18 @@ import Login from './New'
 
 function App() {
   // const [count, setCount] = useState(0)
+  const [fruit,setFruit]=useState("Apple");
+
+   function change(){
+        setFruit("Mango")
+  }
   return (
     <>
+    <div>
     <h1>hello</h1>
+       <h1 id='ab'>{fruit}</h1>
+       <button onClick={change}>Change</button>
+       </div>
     <User/> 
     <Name/>
     <Input/>
@@ -25,6 +34,7 @@ function Input(){
   return(
     <div>
       <h3> Welcome React</h3>
+   
     </div>)
 }
 

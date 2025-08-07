@@ -28,7 +28,7 @@ function Name(){
 
     let Name="Kolhapur"
     return (<div>
-        <h1 id="ab">
+        <h1 id="abc">
          Abhishek Bachate
         </h1>
       <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-169994-674010.jpg&fm=jpg" id="img" />
