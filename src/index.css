@@ -45,6 +45,20 @@ h1 {
   color: red;
 }
 
+#add{
+  background-color: green;
+  border: #1a1a1a;
+  margin-right: 20px;
+}
+
+#min{
+  background-color: red;
+  border-radius: #1a1a1a;
+}
+#name{
+  color: orange;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;

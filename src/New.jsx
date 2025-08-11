@@ -41,7 +41,7 @@ function Name(){
       </ul>
       <button onClick={click}>Click</button>
       <h1>{Name}</h1>
-      <h3>{Prime(4)}</h3> 
+      <h3>{Prime(3)}</h3> 
       <h2>{even(4)}</h2>
       {/* <h3>{prime(3)}</h3>  */}
 
