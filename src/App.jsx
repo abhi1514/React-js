@@ -3,7 +3,8 @@ import Counter from './Counter'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import User from './User'
+// import User from './User'
+import Check from './chekbox'
 // import Name from './New'
 // import Login from './New'
 // import Btn from './User'
@@ -19,11 +20,12 @@ function App() {
   return (
     <>
     <div>
-    <h1>hello</h1>
+    <h4>hello</h4>
        <h1 id='ab'>{fruit}</h1>
        <button onClick={change}>Change</button>
        </div>
-    <User /> 
+    {/* <User />  */}
+    <Check/>
     {/* <Name/> */}
     {/* <Input/> */}
     {/* <Counter/> */}
