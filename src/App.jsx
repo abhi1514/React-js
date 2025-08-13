@@ -6,6 +6,7 @@ import './App.css'
 // import User from './User'
 import Check from './chekbox'
 import Application from './Loop'
+
 // import Button from './Radio''
 // import Name from './New'
 // import Login from './New'
@@ -29,6 +30,7 @@ function App() {
     {/* <User />  */}
     <Check/>
     <Application/>
+    
     {/* <Button/> */}
     {/* <Name/> */}
     {/* <Input/> */}
