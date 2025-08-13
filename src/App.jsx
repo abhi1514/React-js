@@ -5,6 +5,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 // import User from './User'
 import Check from './chekbox'
+import Application from './Loop'
+// import Button from './Radio''
 // import Name from './New'
 // import Login from './New'
 // import Btn from './User'
@@ -26,6 +28,8 @@ function App() {
        </div>
     {/* <User />  */}
     <Check/>
+    <Application/>
+    {/* <Button/> */}
     {/* <Name/> */}
     {/* <Input/> */}
     {/* <Counter/> */}

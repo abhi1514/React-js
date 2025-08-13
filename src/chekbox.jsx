@@ -6,6 +6,8 @@ function Check(){
         console.log(event.target.value,event.target.checked);
         if(event.target.checked){
             setskills([...skills,event.target.value])
+        } else{
+            setskills([...skills.filter((item)=>item!=event.target.value)])
         }
         
     } 
@@ -23,6 +25,7 @@ function Check(){
                 <label htmlFor="AIML">
                 <input onChange={handleskills}  type="checkbox" name="lang" id="AIML" value=" AIML"/> AIML
             </label>
+            
             <h1>{skills.toString()}</h1>
         </div>
     )
