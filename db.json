@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": "fa89",
+      "title": "jdjj",
+      "author": "abc",
+      "email": "qqijoq"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "ajay",
+      "place": "pune",
+      "phone": "9800657866"
+    },
+
+      {
+      "id": 2,
+      "name": "vishal",
+      "place": "karad",
+      "phone": "9900657760"
+    }
+  ]
+}
